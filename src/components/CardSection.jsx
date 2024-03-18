@@ -1,4 +1,7 @@
 import React from "react";
+import HeartIcon from '../assets/images/heraticon.png'
+import Dite from '../assets/images/dite.png'
+import Glass from '../assets/images/glass.png'
 
 const CardSection = () => {
   return (
@@ -16,7 +19,7 @@ const CardSection = () => {
           <div className="col">
             <div className="card mx-auto ">
               <img
-                src="src\assets\images\glass.png"
+                src={Glass}
                 className="card-img-top"
                 alt=""
               />
@@ -35,7 +38,7 @@ const CardSection = () => {
           <div className="col">
             <div className="card mx-auto ">
               <img
-                src="src\assets\images\dite.png"
+                src={Dite}
                 className="card-img-top"
                 alt=""
               />
@@ -56,7 +59,7 @@ const CardSection = () => {
           <div className="col">
             <div className="card mx-auto ">
               <img
-                src="src\assets\images\heraticon.png"
+                src={HeartIcon}
                 className="card-img-top"
                 alt=""
               />

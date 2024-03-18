@@ -1,4 +1,7 @@
 import React from 'react'
+import Dite2 from '../assets/images/dite2.png'
+import Permind from '../assets/images/permind.png'
+import Botel from '../assets/images/botel.png'
 
 const MainSection = () => {
   return (
@@ -16,7 +19,7 @@ const MainSection = () => {
         <div className='row gap-3'>
             <div className='col'>
                 <div className='card bg-light mx-auto'>
-                    <img src="src\assets\images\dite2.png" className='card-img-top  ms-0'  />
+                    <img src={Dite2} className='card-img-top  ms-0'  />
                     <div className='card-body'>
                     <h1 className='h5'>Personal Nutrtion</h1>
 
@@ -27,7 +30,7 @@ const MainSection = () => {
             </div>
             <div className='col'>
                 <div className='card mx-auto bg-light'>
-                    <img src="src\assets\images\permind.png" className='card-img-top ms-0' alt="" />
+                    <img src={Permind} className='card-img-top ms-0' alt="" />
                     <div className='card-body'>
                     <h1 className='h5'>Personal Nutrtion</h1>
 
@@ -38,7 +41,7 @@ const MainSection = () => {
             </div>
             <div className='col'>
                 <div className='card mx-auto bg-light'>
-                    <img src="src\assets\images\botel.png" className='card-img-top ms-0' alt="" />
+                    <img src={Botel} className='card-img-top ms-0' alt="" />
                     <div className='card-body'>
                         <h1 className='h5'>Personal Nutrtion</h1>
                         <p className='card-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, architecto.</p>
@@ -48,6 +51,7 @@ const MainSection = () => {
             </div>
         </div>
       </div>
+
       
     </>
   )

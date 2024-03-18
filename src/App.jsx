@@ -6,6 +6,7 @@ import LifeSection from './components/LifeSection'
 import MainSection from './components/MainSection'
 import SimpleSection from './components/SimpleSection'
 import BestSetion from './components/BestSetion'
+import FooterSection from './components/FooterSection'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     <MainSection/>
     <SimpleSection/>
     <BestSetion/>
+    <FooterSection/>
     </>
   )
 }
